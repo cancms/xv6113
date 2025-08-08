@@ -23,7 +23,7 @@ interests:
 #  - Robust LLM Applications
 
 organizations:
-- name: Meat
+- name: Meta
   url: 
   
 role: Research Scientist

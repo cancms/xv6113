@@ -29,6 +29,24 @@
 
 
 
+.wg-project {
+  .article-authors {
+    color: #000000;
+    font-size: 0.9rem;
+    .j-op {
+      color: red;
+    }
+  }
+  .journal {
+    font-weight: bold;
+  }
+
+   .article-desc {
+     color: #0000008a;
+     font-size: 0.8rem;
+   }
+}
+
 .home-pubs-section {
   .pub-title {
     font-weight: bold;

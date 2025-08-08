@@ -1,379 +1,212 @@
 pubs:
 
-  - image: "img/projects/p1.jpg"
-    title: "Reading Relevant Feature from Global Representation Memory for Visual Object Tracking"
-    title_link: "https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf"
-    authors: "Xinyu Zhou, Pinxue Guo, Lingyi Hong, Jinglun Li, wei Zhang, __Weifeng Ge*__, and Wenqiang Zhang*"
+  - images:
+      - url: "images/publications/p1.gif"
+        name:
+    title: "URAvatar: Universal Relightable Gaussian Codec Avatars"
+    authors: "**Junxuan Li**, Chen Cao, Gabriel Schwartz, Rawal Khirodkar, Christian Richardt, Tomas Simon, Yaser Sheikh, and Shunsuke Saito"
+    journal: "SIGGRAPH Asia 2024"
     links:
-      - name: NeurIPS 2023
-        url: https://nips.cc/virtual/2023/papers.html?filter=titles
-      - name: Paper
-        url: https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 1
-    year: 2023
-    topic:
-
-
-  - image: "img/projects/p2.jpg"
-    title: "Multi-domain Information Fusion for Key-Points Guided GAN Inversion"
-    title_link: "https://link.springer.com/chapter/10.1007/978-981-99-8552-4_12"
-    authors: "Ruize Xu, Xiaowen Qiu, Boan He, __Weifeng Ge ✉__, and Wenqiang Zhang✉"
-    links:
-      - name: PRCV 2023
-        url: https://www.prcv2023.cn/2023prcv
-      - name: Paper
-        url: https://link.springer.com/chapter/10.1007/978-981-99-8552-4_12
-
-    journal: "Poster Presentation"
-    selected_order: 2
-    year: 2023
-    topic:
-
-
-
-  - image: "img/projects/p3.jpg"
-    title: "Characterizing the impacts of instances on robustness"
-    title_link: "https://aclanthology.org/2023.findings-acl.146.pdf"
-    authors: "Rui Zheng, Zhiheng Xi, Qin Liu, Wenbin Lai, Tao Gui, Qi Zhang, XuanJing Huang, Jin Ma, Ying Shan, __Weifeng Ge ✉__"
-    links:
-      - name: ACL 2023
-        url: https://2023.aclweb.org/
-      - name: Paper
-        url: https://aclanthology.org/2023.findings-acl.146.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 5
-    year: 2023
-    topic:
-
-
-  - image: "img/projects/p4.jpg"
-    title: "Rankdnn: Learning to rank for few-shot learning"
-    title_link: "https://aclanthology.org/2023.findings-acl.146.pdf"
-    authors: "Qianyu Guo, Haotong Gong, Xujun Wei, Yanwei Fu, Yizhou Yu, Wenqiang Zhang, __Weifeng Ge ✉__"
-    links:
-      - name: AAAI 2023
-        url: https://aaai-23.aaai.org//
-      - name: Paper
-        url: https://ojs.aaai.org/index.php/AAAI/article/download/25150/24922
-
-    journal: "Poster Presentation"
-    selected_order: 10
-    year: 2023
-    topic: Few-shot Learning
-
-  - image: "img/projects/p5.jpg"
-    title: "Improving Empathetic Dialogue Generation by Dynamically Infusing Commonsense Knowledge"
-    title_link: "https://arxiv.org/pdf/2306.04657.pdf"
-    authors: "Hua Cai* ✉, Xuli Shen*, Qing Xu, Weilin Shen, Xiaomei Wang, Wenqiang Zhang, __Weifeng Ge__ , XiaoQing Zheng, Xiangyang Xue,"
-    links:
-      - name: ACL 2023
-        url: https://2023.aclweb.org/
-      - name: Paper
-        url: https://arxiv.org/pdf/2306.04657.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 15
-    year: 2023
-    topic:
-
-  - image: "img/projects/p6.jpg"
-    title: "Hierarchical Visual Categories Modeling: A Joint Representation Learning and Density Estimation Framework for Out-of-Distribution Detection"
-    title_link: "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Hierarchical_Visual_Categories_Modeling_A_Joint_Representation_Learning_and_Density_ICCV_2023_paper.pdf"
-    authors: "Jinglun Li, Xinyu Zhou, Pinxue Guo, Yixuan Sun, Yiwen Huang, __Weifeng Ge ✉__, Wenqiang Zhang✉"
-    links:
-      - name: ICCV 2023
-        url: https://iccv2023.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Hierarchical_Visual_Categories_Modeling_A_Joint_Representation_Learning_and_Density_ICCV_2023_paper.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 20
-    year: 2023
-    topic:
-
-  - image: "img/projects/p7.jpg"
-    title: "Weakly Supervised Learning of Semantic Correspondence through Cascaded Online Correspondence Refinement"
-    title_link: "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_Weakly_Supervised_Learning_of_Semantic_Correspondence_through_Cascaded_Online_Correspondence_ICCV_2023_paper.pdf"
-    authors: "Yiwen Huang, Yixuan Sun, Chenghang Lai, Qing Xu, Xiaomei Wang, Xuli Shen, __Weifeng Ge ✉__"
-    links:
-      - name: ICCV 2023
-        url: https://iccv2023.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_Weakly_Supervised_Learning_of_Semantic_Correspondence_through_Cascaded_Online_Correspondence_ICCV_2023_paper.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 25
-    year: 2023
-    topic:
-
-  - image: "img/projects/p8.jpg"
-    title: "MISC210K: A Large-Scale Dataset for Multi-Instance Semantic Correspondence"
-    title_link: "https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_MISC210K_A_Large-Scale_Dataset_for_Multi-Instance_Semantic_Correspondence_CVPR_2023_paper.pdf"
-    authors: "Yixuan Sun*, Yiwen Huang*, Haijing Guo, Yuzhou Zhao, Runmin Wu, Yizhou Yu, __Weifeng Ge ✉__ Wenqiang Zhang ✉"
-    links:
-      - name: CVPR 2023
-        url: https://cvpr2023.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_MISC210K_A_Large-Scale_Dataset_for_Multi-Instance_Semantic_Correspondence_CVPR_2023_paper.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 30
-    year: 2023
-    topic: Visual Recognition
-
-
-  - image: "img/projects/p9.jpg"
-    title: "Correspondence Transformers with Asymmetric Feature Learning and Matching Flow Super-Resolution"
-    title_link: "https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Correspondence_Transformers_With_Asymmetric_Feature_Learning_and_Matching_Flow_Super-Resolution_CVPR_2023_paper.pdf"
-    authors: "Yixuan Sun, Dongyang Zhao, Zhangyue Yin, Yiwen Huang, Tao Gui, Wenqiang Zhang, __Weifeng Ge ✉__"
-    links:
-      - name: CVPR 2023
-        url: https://cvpr2023.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content/CVPR2023/papers/Sun_Correspondence_Transformers_With_Asymmetric_Feature_Learning_and_Matching_Flow_Super-Resolution_CVPR_2023_paper.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 35
-    year: 2023
-    topic:
-
-
-
-  - image: "img/projects/p10.jpg"
-    title: "Attribute Surrogates Learning and Spectral Tokens Pooling in Transformers for Few-shot Learning"
-    title_link: "https://arxiv.org/pdf/2203.09064.pdf"
-    authors: "Yangji He, Weihan Liang, Dongyang Zhao, Hong-Yu Zhou, __Weifeng Ge ✉__, Yizhou Yu, and Wenqiang Zhang"
-    links:
-      - name: CVPR 2022
-        url: http://cvpr2022.thecvf.com/
-      - name: Paper
-        url: https://arxiv.org/pdf/2203.09064.pdf
-      - name: Codes
-        url: https://github.com/StomachCold/HCTransformers
-
-    journal: "Poster Presentation"
-    selected_order: 40
-    year: 2022
-    topic: Few-shot Learning
-
-
-
-  - image: "img/projects/p11.jpg"
-    title: "FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos"
-    title_link: "https://arxiv.org/abs/2203.09463"
-    authors: "Yan Wang, Yixuan Sun, Yiwen Huang, Zhongying Liu, Shuyong Gao, Wei Zhang, __Weifeng Ge ✉__, and Wenqiang Zhang ✉"
-    links:
-      - name: CVPR 2022
-        url: http://cvpr2022.thecvf.com/
-      - name: Paper
-        url: https://arxiv.org/pdf/2203.09064.pdf
+      - name: Pdf
+        url: "https://arxiv.org/abs/2410.24223"
       - name: Project Page
-        url: https://wangyanckxx.github.io/Proj_CVPR2022_FERV39k.html
-
-    journal: "Poster Presentation"
-    selected_order: 45
-    year: 2022
-    topic: Visual Recognition
+        url: "https://junxuan-li.github.io/urgca-website/"
+    desc: |
+      We present URAvatar. It is a high-fidelity Universal prior for Relightable Avatars. You can create URAvatar (Your Avatar) from a phone scan
 
 
-
-  - image: "img/projects/p12.jpg"
-    title: "DPCNet: Dual path multi-excitation collaborative network for facial expression representation learning in videos"
-    title_link: "https://dl.acm.org/doi/abs/10.1145/3503161.3547865"
-    authors: "Yan Wang, Yixuan Sun, Wei Song, Shuyong Gao, Yiwen Huang, Zhaoyu Chen, __Weifeng Ge ✉__, and Wenqiang Zhang ✉"
+  - images:
+      - url: "images/publications/p2.gif"
+        name:
+    title: "Relightable Gaussian Codec Avatars"
+    authors: "Shunsuke Saito, Gabriel Schwartz, Tomas Simon, Junxuan Li, and Giljoo Nam"
+    journal: "CVPR 2024 <span class='j-op'>Oral presentation</span>"
     links:
-      - name: ACM MM 2022
-        url: https://2022.acmmm.org/
-      - name: Paper
-        url: https://dl.acm.org/doi/abs/10.1145/3503161.3547865
-
-    journal: "Poster Presentation"
-    selected_order: 50
-    year: 2022
-    topic: Visual Recognition
+      - name: Pdf
+        url: "https://arxiv.org/abs/2312.03704"
+      - name: Project Page
+        url: "https://shunsukesaito.github.io/rgca/"
+    desc: |
+      We build high-fidelity relightable & animatable head avatars with 3D-consistent sub-millimeter details such as hair strands and pores on dynamic face sequences.
 
 
 
-  - image: "img/projects/p13.jpg"
-    title: "GraphFPN: Graph Feature Pyramid Network for Object Detection"
-    title_link: "https://openaccess.thecvf.com/content/ICCV2021/html/Zhao_GraphFPN_Graph_Feature_Pyramid_Network_for_Object_Detection_ICCV_2021_paper.html"
-    authors: "Gangming Zhao, __Weifeng Ge ✉__, and Yizhou Yu ✉"
+
+  - images:
+      - url: "images/publications/p3.gif"
+        name:
+    title: "MEGANE: Morphable Eyeglass and Avatar Network"
+    authors: "Junxuan Li, Shunsuke Saito, Tomas Simon, Stephen Lombardi, Hongdong Li, and Jason Saragih"
+    journal: "CVPR 2023"
     links:
-      - name: ICCV 2021
-        url: http://iccv2021.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_GraphFPN_Graph_Feature_Pyramid_Network_for_Object_Detection_ICCV_2021_paper.pdf
-      - name: Codes
-        url: https://github.com/GangmingZhao/GraphFPN-Graph-Feature-Pyramid-Network-for-Object-Detection
+      - name: Pdf
+        url: "https://arxiv.org/abs/2302.04868"
+      - name: Project Page
+        url: "https://junxuan-li.github.io/megane/"
+    desc: |
+      We propose a 3D compositional morphable model of eyeglasses that accurately incorporates high-fidelity geometric and photometric interaction effects.
 
-    journal: "Poster Presentation"
-    selected_order: 55
-    year: 2021
-    topic: Visual Recognition
+      We employ a hybrid representation that combines surface geometry and a volumetric representation to enable modification of geometry, lens insertion and frame deformation.
 
+      Our model is relightable under point lights and natural illumination, which can synthesize casting shadows between faces and glasses
 
 
-  - image: "img/projects/p14.jpg"
-    title: "Multi-scale Matching Networks for Semantic Correspondence"
-    title_link: "https://openaccess.thecvf.com/content/ICCV2021/html/Zhao_Multi-Scale_Matching_Networks_for_Semantic_Correspondence_ICCV_2021_paper.html"
-    authors: "Dongyang Zhao, Ziyang Song, Zhenghao Ji, Gangming Zhao, __Weifeng Ge ✉__, and Yizhou Yu"
+
+  - images:
+      - url: "images/publications/p4.gif"
+        name:
+    title: "In-the-wild Inverse Rendering with a Flashlight"
+    authors: "Ziang Cheng, Junxuan Li, Hongdong Li"
+    journal: "CVPR 2023"
     links:
-      - name: ICCV 2021
-        url: http://iccv2021.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Multi-Scale_Matching_Networks_for_Semantic_Correspondence_ICCV_2021_paper.pdf
-      - name: Codes
-        url: https://github.com/wintersun661/MMNet
+      - name: Pdf
+        url: "https://arxiv.org/abs/2303.14190"
+      - name: Project Page
+        url: "https://junxuan-li.github.io/wildlight-website/"
+    desc: |
+      We propose a practical photometric solution for the in-the-wild inverse rendering under unknown ambient lighting.
 
-    journal: "Poster Presentation"
-    selected_order: 60
-    year: 2021
-    topic: Visual Recognition
+      We recovers scene geometry and reflectance using only multi-view images captured by a smartphone.
 
+      The key idea is to exploit smartphone's built-in flashlight as a minimally controlled light source, and decompose images into two photometric components: a static appearance corresponds to ambient flux, plus a dynamic reflection induced by the flashlight.
 
 
-  - image: "img/projects/p15.jpg"
-    title: "Weakly Supervised Complementary Parts Models for Image Classification from the Bottom Up"
-    title_link: "https://arxiv.org/pdf/1903.02827.pdf"
-    authors: "__Weifeng Ge*__, Xiangru Lin*, and Yizhou Yu (* indicates equal contribution)"
+
+  - images:
+      - url: "images/publications/p5-1.gif"
+        name:
+      - url: "images/publications/p5-2.gif"
+        name:
+      - url: "images/publications/p5-3.gif"
+        name:
+    title: "Self-calibrating Photometric Stereo by Neural Inverse Rendering"
+    authors: "Junxuan Li, and Hongdong Li"
+    journal: "ECCV 2022"
     links:
-      - name: CVPR 2019
-        url: http://cvpr2019.thecvf.com/
+      - name: Pdf
+        url: "https://arxiv.org/abs/2207.07815"
+      - name: Project Page
+        url: "https://github.com/junxuan-li/SCPS-NIR"
+    desc: |
+      Introduced a self-supervised neural network for uncalibrated photometric stereo problem.
 
-    journal: "Poster Presentation"
-    selected_order: 65
-    year: 2019
-    topic: Visual Recognition
+      The object surface shape, and light sources are jointly estimated via the neural network in an unsupervised manner
 
 
 
-  - image: "img/projects/p16.jpg"
-    title: "Label-PEnet: Sequential Label Propagation and Enhancement Networks for Weakly Supervised Instance Segmentation"
-    title_link: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Ge_Label-PEnet_Sequential_Label_Propagation_and_Enhancement_Networks_for_Weakly_Supervised_ICCV_2019_paper.pdf"
-    authors: "__Weifeng Ge__, Sheng Guo, Weilin Huang✉, and Matthew R. Scott"
+
+  - images:
+      - url: "images/publications/p6-1.gif"
+        name:
+      - url: "images/publications/p6-2.gif"
+        name:
+    title: "Neural Reflectance for Shape Recovery with Shadow Handling"
+    authors: "Junxuan Li, and Hongdong Li"
+    journal: "CVPR 2022.  <span class='j-op'>Oral presentation</span>"
     links:
-      - name: ICCV 2019
-        url: https://iccv2019.thecvf.com/
-      - name: Paper
-        url: https://openaccess.thecvf.com/content_ICCV_2019/papers/Ge_Label-PEnet_Sequential_Label_Propagation_and_Enhancement_Networks_for_Weakly_Supervised_ICCV_2019_paper.pdf
+      - name: Pdf
+        url: "https://arxiv.org/abs/2203.12909"
+      - name: Project Page
+        url: "https://github.com/junxuan-li/Neural-Reflectance-PS"
+    desc: |
+      Formulated the shape estimation and material estimation in a self-supervised framework.  Explicitly predicted shadows to mitigate the errors.
 
-    journal: "Poster Presentation"
-    selected_order: 70
-    year: 2019
-    topic: Visual Recognition
+      Achieved the state-of-the-art performance in surface normal estimation and been an order of magnitude faster than previous methods.
 
-
-
+      The proposed neural representation of reflectance also presents higher quality in object relighting task than prior works.
 
 
-  - image: "img/projects/p17.jpg"
-    title: "Image Super-Resolution via Deterministic-Stochastic Synthesis and Local Statistical Rectification"
-    title_link: "https://arxiv.org/pdf/1809.06557.pdf"
-    authors: "__Weifeng Ge*__, Bingchen Gong*, and [Yizhou Yu](https://i.cs.hku.hk/~yzyu/) (* indicates equal contribution)"
+
+  - images:
+      - url: "images/publications/p7.png"
+        name:
+    title: "Neural Plenoptic Sampling: Learning Light-field from Thousands of Imaginary Eyes"
+    authors: "Junxuan Li, Yujiao Shi, and Hongdong Li"
+    journal: "ACCV 2022"
     links:
-      - name: SIGGRAPH ASIA 2018
-        url: https://sa2018.siggraph.org/en/
-      - name: ACM Trans. on Graphics
-        url: https://tog.acm.org/
-      - name: Paper
-        url: https://arxiv.org/pdf/1809.06557.pdf
-      - name: Codes
-        url: https://github.com/ZYYSny/Deterministic-and-Stochastic-Synthesis-Network
+      - name: Pdf
+        url: "https://openaccess.thecvf.com/content/ACCV2022/papers/Li_Neural_Plenoptic_Sampling_Learning_Light-field_from_Thousands_of_Imaginary_Eyes_ACCV_2022_paper.pdf"
+    desc: |
+      Proposed a neural representation for the plenoptic function, which describes light rays observed from any given position in every viewing direction.
 
-    journal: Oral Presentation
-    selected_order: 75
-    year: 2018
-    topic: Low Level Imaging
+      Proposed proxy depth reconstruction and color-blending network for achieving well approximation on the complete plenoptic function.
+
+      The generated results are in high-quality with better PSNR than previous methods. The training and testing time of proposed method is also more than 10 times faster than prior works.
 
 
 
 
-
-  - image: "img/projects/p18.jpg"
-    title: "Deep Metric Learning with Hierarchical Triplet Loss"
-    title_link: "http://openaccess.thecvf.com/content_ECCV_2018/papers/Ge_Deep_Metric_Learning_ECCV_2018_paper.pdf"
-    authors: "__Weifeng Ge__, Weinlin Huang, Dengke Dong, and Matthew R. Scott"
+  - images:
+      - url: "images/publications/p8.jpg"
+        name:
+    title: "Lighting, Reflectance and Geometry Estimation from 360° Panoramic Stereo"
+    authors: "Junxuan Li, Hongdong Li, and Yasuyuki Matsushita"
+    journal: "CVPR 2021"
     links:
-      - name: ECCV 2018
-        url: https://eccv2018.org/
-      - name: Paper
-        url: http://openaccess.thecvf.com/content_ECCV_2018/papers/Ge_Deep_Metric_Learning_ECCV_2018_paper.pdf
-
-    journal: "Poster Presentation"
-    selected_order: 80
-    year: 2018
-    topic: Visual Recognition
+      - name: Pdf
+        url: "https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Lighting_Reflectance_and_Geometry_Estimation_From_360deg_Panoramic_Stereo_CVPR_2021_paper.pdf"
+      - name: Code
+        url: "https://github.com/junxuan-li/LRG_360Panoramic"
+    desc: |
 
 
-  - image: "img/projects/p19.jpg"
-    title: "Multi-Evidence Filtering and Fusion for Multi-Label Classification, Object Detection and Semantic Segmentation Based on Weakly Supervised Learning"
-    title_link: "http://openaccess.thecvf.com/content_cvpr_2018/papers/Ge_Multi-Evidence_Filtering_and_CVPR_2018_paper.pdf"
-    authors: "__Weifeng Ge__, Sibei Yang, and Yizhou Yu"
+
+
+  - images:
+      - url: "images/publications/p9-1.png"
+        name:
+      - url: "images/publications/p9-2.png"
+        name:
+    title: "Learning to Minify Photometric Stereo"
+    authors: "Junxuan Li, Antonio Robles-Kelly, Shaodi You, and Yasuyuki Matsushita"
+    journal: "CVPR 2019"
     links:
-      - name: CVPR 2018
-        url: http://cvpr2018.thecvf.com/
-      - name: Paper
-        url: http://openaccess.thecvf.com/content_cvpr_2018/papers/Ge_Multi-Evidence_Filtering_and_CVPR_2018_paper.pdf
+      - name: Pdf
+        url: "https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Learning_to_Minify_Photometric_Stereo_CVPR_2019_paper.pdf"
+      - name: Code
+        url: "https://github.com/junxuan-li/Learning-to-Minify-Photometric-Stereo"
+    desc: |
+      Dramatically decrease the demands on the photometric stereo problem by reducing the number of images at input.
 
-    journal: "Poster Presentation"
-    selected_order: 85
-    year: 2018
-    topic: Visual Recognition
+      Automatically learn the critical and informative illuminations required at input.
 
-  - image: "img/projects/p20.jpg"
-    title: "Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-Tuning"
-    title_link: "http://openaccess.thecvf.com/content_cvpr_2017/papers/Ge_Borrowing_Treasures_From_CVPR_2017_paper.pdf"
-    authors: "__Weifeng Ge__, and Yizhou Yu"
+
+
+  - images:
+      - url: "images/publications/p10.png"
+        name:
+    title: "A Frequency Domain Neural Network for Fast Image Super-resolution"
+    authors: "Junxuan Li, Shaodi You, and Antonio Robles-Kelly"
+    journal: ""
+    journal_desc: "_Neural Networks (**IJCNN**), 2018 International Joint Conference on. IEEE, 2018. Oral Presentation_"
     links:
-      - name: CVPR 2017
-        url: http://cvpr2017.thecvf.com/
-      - name: Paper
-        url: http://openaccess.thecvf.com/content_cvpr_2017/papers/Ge_Borrowing_Treasures_From_CVPR_2017_paper.pdf
-      - name: Codes
-        url: https://github.com/ZYYSny/Selective-Joint-Fine-tuning
+      - name: Pdf
+        url: "https://arxiv.org/abs/1712.03037"
+      - name: Code
+        url: "https://github.com/junxuan-li/A-frequency-domain-neural-network-for-fast-image-super-resolution"
+    desc: |
+      A frequency domain neural network for image super-resolution.
 
-    journal: "Spotlight Presentation"
-    selected_order: 90
-    year: 2017
-    topic: Visual Recognition
+      Employs the convolution theorem so as to cast convolutions in the spatial domain as products in the frequency domain.
 
+      The network is very computationally efficient at testing, which is one to two orders of magnitude faster than the previous works.
 
 
 
-  - image: "img/projects/bs_pr2016.jpg"
-    title: "Dynamic background estimation and complementary learning for pixel-wise foreground/background segmentation"
-    title_link: "https://www-sciencedirect-com.eproxy.lib.hku.hk/science/article/pii/S0031320316000522"
-    authors: "__Weifeng Ge__, Zhenhua Guo, Yuhan Dong, and Youbin Chen"
+  - images:
+      - url: "images/publications/p11.png"
+        name:
+    title: "Stereo Super-resolution via a Deep Convolutional Network"
+    authors: "Junxuan Li, Shaodi You, and Antonio Robles-Kelly"
+    journal: ""
+    journal_desc: "_Digital Image Computing: Techniques and Applications (**DICTA**), 2017 International Conference on. IEEE, 2017_"
     links:
-      - name: PR 2016
-        url: https://www-sciencedirect-com.eproxy.lib.hku.hk/science/article/pii/S0031320316000522
+      - name: Pdf
+        url: "https://junxuan-li.github.io/assets/Stereo_Super_resolution_via_a_Deep_ConvolutionalNetwork.pdf"
+    desc: |
+      A deep network for images super-resolution with stereo images at input. The network is designed to allow combining structural information in the image across large regions efficiently.
 
-    journal:
-    selected_order: 95
-    year: 2016
-    topic: Video Surveillance
-
+      By learning the residual image, the network copes better with vanishing gradients and its devoid of gradient clipping operations.
 
 
 
-
-
-
-
-  - image: "img/projects/bs_icpr2014.jpg"
-    title: "Background Subtraction with Dynamic Noise Sampling and Complementary Learning"
-    title_link: "https://ieeexplore.ieee.org/document/6977118"
-    authors: "__Weifeng Ge__, Yuhan Dong, Zhenhua Guo, and Youbin Chen"
-    links:
-      - name: ICPR 2014
-        url: https://iapr.org/archives/icpr2014/
-      - name: Paper
-        url: https://ieeexplore.ieee.org/document/6977118
-
-    journal: "Poster Presentation"
-    selected_order: 100
-    year: 2014
-    topic: Video Surveillance

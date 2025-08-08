@@ -1,34 +1,28 @@
-{{/* Portfolio Widget */}}
+{{/* Project / publication Widget */}}
 
 {{/* Initialise */}}
 {{ $ := .root }}
 {{ $st := .page }}
+{{ $publications := site.Data.publications.pubs }}
 
-
-{{/*<div ></div>
-<div class="col-12  col-lg-4 section-heading">
-    {{ with $st.Params.title }}<h1>{{ . }}</h1>{{ end }}
-  <p>Some of my projects, enjoy!</p>
-</div>*/}}
 <div class="col-12  col-lg-8 ">
 
-  {{ range $st.Params.project_list }}
+  {{ range $publications }}
   <div class="media stream-item view-compact" style="align-items: stretch;">
     <div class="media-body">
 
       <div class="section-subheading article-title mb-0 mt-0">
         {{ .title }}
       </div>
-      <div class="article-style">
+      <div class=" article-authors">
+          {{ .authors | markdownify}}.
+        <span class="journal"  >{{ .journal | markdownify}}</span>
+
+      </div>
+      <div class="article-desc">
           {{ .desc | markdownify}}
       </div>
 
-
-      {{ with .tiem }}
-      <div class="stream-meta article-metadata">
-        <div><span>{{ . }} </span></div>
-      </div>
-      {{ end }}
 
       {{with .links}}
       <div class="btn-links">
@@ -44,7 +38,12 @@
     </div>
     <div class="ml-3 home-prj-img-icon-wrap">
         {{/*{{ with .image }} <img src="{{ . }}" height="84" width="150" loading="lazy" /> {{ end }}*/}}
-        {{ with .image }} <img src="{{ . }}" class="home-project-icon-image" loading="lazy" /> {{ end }}
+        {{ with .images }}
+          {{ range $idx, $item := . }}
+            <div><img src="{{ $item.url | relURL }}" class="home-project-icon-image" loading="lazy" /></div>
+          {{end}}
+
+      {{ end }}
     </div>
   </div>
   {{ end }}
