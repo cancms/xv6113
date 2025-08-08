@@ -19,7 +19,7 @@ pubs:
       - url: "images/publications/p2.gif"
         name:
     title: "Relightable Gaussian Codec Avatars"
-    authors: "Shunsuke Saito, Gabriel Schwartz, Tomas Simon, Junxuan Li, and Giljoo Nam"
+    authors: "Shunsuke Saito, Gabriel Schwartz, Tomas Simon, **Junxuan Li**, and Giljoo Nam"
     journal: "CVPR 2024 <span class='j-op'>Oral presentation</span>"
     links:
       - name: Pdf
@@ -36,7 +36,7 @@ pubs:
       - url: "images/publications/p3.gif"
         name:
     title: "MEGANE: Morphable Eyeglass and Avatar Network"
-    authors: "Junxuan Li, Shunsuke Saito, Tomas Simon, Stephen Lombardi, Hongdong Li, and Jason Saragih"
+    authors: "**Junxuan Li**, Shunsuke Saito, Tomas Simon, Stephen Lombardi, Hongdong Li, and Jason Saragih"
     journal: "CVPR 2023"
     links:
       - name: Pdf
@@ -56,7 +56,7 @@ pubs:
       - url: "images/publications/p4.gif"
         name:
     title: "In-the-wild Inverse Rendering with a Flashlight"
-    authors: "Ziang Cheng, Junxuan Li, Hongdong Li"
+    authors: "Ziang Cheng, **Junxuan Li**, Hongdong Li"
     journal: "CVPR 2023"
     links:
       - name: Pdf
@@ -80,7 +80,7 @@ pubs:
       - url: "images/publications/p5-3.gif"
         name:
     title: "Self-calibrating Photometric Stereo by Neural Inverse Rendering"
-    authors: "Junxuan Li, and Hongdong Li"
+    authors: "**Junxuan Li**, and Hongdong Li"
     journal: "ECCV 2022"
     links:
       - name: Pdf
@@ -101,7 +101,7 @@ pubs:
       - url: "images/publications/p6-2.gif"
         name:
     title: "Neural Reflectance for Shape Recovery with Shadow Handling"
-    authors: "Junxuan Li, and Hongdong Li"
+    authors: "**Junxuan Li**, and Hongdong Li"
     journal: "CVPR 2022.  <span class='j-op'>Oral presentation</span>"
     links:
       - name: Pdf
@@ -121,7 +121,7 @@ pubs:
       - url: "images/publications/p7.png"
         name:
     title: "Neural Plenoptic Sampling: Learning Light-field from Thousands of Imaginary Eyes"
-    authors: "Junxuan Li, Yujiao Shi, and Hongdong Li"
+    authors: "**Junxuan Li**, Yujiao Shi, and Hongdong Li"
     journal: "ACCV 2022"
     links:
       - name: Pdf
@@ -140,7 +140,7 @@ pubs:
       - url: "images/publications/p8.jpg"
         name:
     title: "Lighting, Reflectance and Geometry Estimation from 360° Panoramic Stereo"
-    authors: "Junxuan Li, Hongdong Li, and Yasuyuki Matsushita"
+    authors: "**Junxuan Li**, Hongdong Li, and Yasuyuki Matsushita"
     journal: "CVPR 2021"
     links:
       - name: Pdf
@@ -158,7 +158,7 @@ pubs:
       - url: "images/publications/p9-2.png"
         name:
     title: "Learning to Minify Photometric Stereo"
-    authors: "Junxuan Li, Antonio Robles-Kelly, Shaodi You, and Yasuyuki Matsushita"
+    authors: "**Junxuan Li**, Antonio Robles-Kelly, Shaodi You, and Yasuyuki Matsushita"
     journal: "CVPR 2019"
     links:
       - name: Pdf
@@ -176,9 +176,9 @@ pubs:
       - url: "images/publications/p10.png"
         name:
     title: "A Frequency Domain Neural Network for Fast Image Super-resolution"
-    authors: "Junxuan Li, Shaodi You, and Antonio Robles-Kelly"
+    authors: "**Junxuan Li**, Shaodi You, and Antonio Robles-Kelly"
     journal: ""
-    journal_desc: "_Neural Networks (**IJCNN**), 2018 International Joint Conference on. IEEE, 2018. Oral Presentation_"
+    journal_desc: "_Neural Networks (**IJCNN**), 2018 International Joint Conference on. IEEE, 2018. <span class='j-op'>Oral presentation</span>_"
     links:
       - name: Pdf
         url: "https://arxiv.org/abs/1712.03037"
@@ -197,7 +197,7 @@ pubs:
       - url: "images/publications/p11.png"
         name:
     title: "Stereo Super-resolution via a Deep Convolutional Network"
-    authors: "Junxuan Li, Shaodi You, and Antonio Robles-Kelly"
+    authors: "**Junxuan Li**, Shaodi You, and Antonio Robles-Kelly"
     journal: ""
     journal_desc: "_Digital Image Computing: Techniques and Applications (**DICTA**), 2017 International Conference on. IEEE, 2017_"
     links:
@@ -207,6 +207,101 @@ pubs:
       A deep network for images super-resolution with stereo images at input. The network is designed to allow combining structural information in the image across large regions efficiently.
 
       By learning the residual image, the network copes better with vanishing gradients and its devoid of gradient clipping operations.
+
+
+
+
+  - images:
+    title: "HairCUP: Hair Compositional Universal Prior for 3D Gaussian Avatars"
+    authors: "Byungjun Kim, Shunsuke Saito, Giljoo Nam, Tomas Simon, Jason Saragih, Hanbyul Joo, **Junxuan Li**"
+    journal: ""
+    journal_desc: "**ICCV 2025** (Oral)"
+    links:
+      - name: Project
+        url: "https://bjkim95.github.io/haircup/"
+      - name: Paper
+        url: "https://arxiv.org/abs/2507.19481"
+    desc: |
+      A universal prior model, HairCUP, explicitly disentangles hair and face components to enable flexible hairstyle swapping and the creation of high-fidelity 3D head avatars from only a few images
+
+
+
+  - images:
+    title: "Relightable Full-body Gaussian Codec Avatars"
+    authors: "Shaofei Wang, Tomas Simon, Igor Santesteban, Timur Bagautdinov, **Junxuan Li**, Vasu Agrawal, Fabian Prada, Shoou-I Yu, Pace Nalbone, Matt Gramlich, Roman Lubachersky, Chenglei Wu, Javier Romero, Jason Saragih, Michael Zollhoefer, Andreas Geiger, Siyu Tang, Shunsuke Saito"
+    journal: ""
+    journal_desc: "ACM Transactions on Graphics (**SIGGRAPH 2025**)"
+    links:
+      - name: Project
+        url: "https://neuralbodies.github.io/RFGCA/"
+      - name: Paper
+        url: "https://arxiv.org/pdf/2501.14726"
+    desc: |
+      The first drivable, full-body avatar that can be realistically relighted is introduced, employing a new method to manage complex lighting effects on an articulated body.
+
+
+
+  - images:
+    title: "3DGH: 3D Head Generation with Composable Hair and Face"
+    authors: "Chengan He, **Junxuan Li**, Tobias Kirschstein, Artem Sevastopolsky, Shunsuke Saito, Qingyang Tan, Javier Romero, Chen Cao, Holly Rushmeier, Giljoo Nam"
+    journal: ""
+    journal_desc: "ACM Transactions on Graphics (**SIGGRAPH 2025**)"
+    links:
+      - name: Project
+        url: "https://c-he.github.io/projects/3dgh/"
+      - name: Paper
+        url: "https://arxiv.org/abs/2506.20875"
+    desc: |
+      A novel generative model, 3DGH, creates a wide variety of 3D heads by freely composing different hair and face components.
+
+
+
+  - images:
+    title: "FRESA: Feedforward Reconstruction of Personalized Skinned Avatars from Few Images"
+    authors: "Rong Wang, Fabian Prada, Ziyan Wang, Zhongshi Jiang, Chengxiang Yin, **Junxuan Li**, Shunsuke Saito, Igor Santesteban, Javier Romero, Rohan Joshi, Hongdong Li, Jason Saragih, Yaser Sheikh"
+    journal: "CVPR 2025"
+    journal_desc: ""
+    links:
+      - name: Full Text
+        url: "https://arxiv.org/pdf/2503.19207"
+      - name: Project (results)
+        url: "https://rongakowang.github.io/fresa/fresa.html"
+    desc: |
+      Personalized and animatable 3D avatars are reconstructed with a fast, feed-forward method from just a few images, removing the need for per-subject optimization.
+
+
+
+  - images:
+    title: "LUCAS: Layered Universal Codec Avatars"
+    authors: "Di Liu, Teng Deng, Giljoo Nam, Yu Rong, Stanislav Pidhorskyi, **Junxuan Li**, Jason Saragih, Dimitris N. Metaxas, Chen Cao"
+    journal: "CVPR 2025"
+    journal_desc: ""
+    links:
+      - name: Project
+        url: "https://lsn33096.github.io/LUCAS/"
+      - name: Paper
+        url: "https://arxiv.org/pdf/2502.19739"
+    desc: |
+      High-fidelity, real-time 3D avatars efficient enough for mobile devices are created using a layered model that separates the hair and face.
+
+
+
+
+  - images:
+    title: "Vid2Avatar-Pro: Authentic Avatar from Videos in the Wild via Universal Prior"
+    authors: "Chen Guo*, **Junxuan Li***, Yash Kant, Yaser Sheikh, Shunsuke Saito†, Chen Cao† (*† - equal contribution)"
+    journal: "CVPR 2025"
+    journal_desc: ""
+    links:
+      - name: Full Text
+        url: "https://arxiv.org/abs/2503.01610"
+      - name: Video
+        url: "https://www.youtube.com/watch?v=rVte3Kddh20&feature=youtu.be"
+      - name: Project (results)
+        url: "https://moygcc.github.io/vid2avatar-pro/"
+    desc: |
+      Authentic, animatable 3D avatars are generated from challenging videos captured "in the wild" by leveraging a universal prior model.
+
 
 
 

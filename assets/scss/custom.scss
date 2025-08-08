@@ -1,5 +1,6 @@
 // Override this file to add your own SCSS styling.
 
+$baseBlue: #173024;
 
 .navbar .navbar-nav .nav-link {
   font-size: 1rem;
@@ -28,21 +29,33 @@
 }
 
 
+.home-section {
+  h1 {
+    color: $baseBlue;
+  }
+}
+
 
 .wg-project {
+
+  .media.stream-item .article-title {
+    color: $baseBlue;
+  }
+
   .article-authors {
     color: #000000;
     font-size: 0.9rem;
-    .j-op {
-      color: red;
-    }
+
+  }
+  .j-op {
+    color: red;
   }
   .journal {
     font-weight: bold;
   }
 
    .article-desc {
-     color: #0000008a;
+     color: #333;
      font-size: 0.8rem;
    }
 }

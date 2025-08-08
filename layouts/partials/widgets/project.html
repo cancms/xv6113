@@ -16,7 +16,8 @@
       </div>
       <div class=" article-authors">
           {{ .authors | markdownify}}.
-        <span class="journal"  >{{ .journal | markdownify}}</span>
+        {{with .journal}}<span class="journal"  >{{ . | markdownify}}</span>{{end}}
+        {{with .journal_desc}}{{ . | markdownify}}{{end}}
 
       </div>
       <div class="article-desc">
