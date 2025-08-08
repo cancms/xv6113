@@ -11,6 +11,11 @@ $baseBlue: #173024;
   color: #1565c0;
 }
 
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: $baseBlue;
+}
+
 .experience-icon-image {
   width: 80px;
   max-height: 80px;
