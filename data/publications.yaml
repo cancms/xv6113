@@ -194,7 +194,7 @@ pubs:
   - images:
       - url: "images/publications/p6-1.gif"
         name:
-      - url: "images/publications/p6-2.gif"
+      - url: "images/publications/p6-2.png"
         name:
     title: "Neural Reflectance for Shape Recovery with Shadow Handling"
     authors: "**Junxuan Li**, and Hongdong Li"
