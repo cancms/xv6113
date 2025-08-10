@@ -54,6 +54,7 @@ $baseBlue: #173024;
   }
   .j-op {
     color: red;
+    font-weight: bold;
   }
   .journal {
     font-weight: bold;
@@ -72,7 +73,18 @@ $baseBlue: #173024;
 }
 
 
+/* 768px: md 分界线 */
+@media (max-width: 768px) {
 
-@media (max-width: 640px) {
+  .wg-project {
+    .item-text-part {order: 2;}
+    .item-img-part {
+      order: 1;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
 
 }

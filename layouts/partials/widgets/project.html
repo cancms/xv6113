@@ -5,23 +5,25 @@
 {{ $st := .page }}
 {{ $publications := site.Data.publications.pubs }}
 
+
 <div class="col-12  col-lg-8 ">
 
   {{ range $publications }}
-  <div class="media stream-item view-compact" style="align-items: stretch;">
-    <div class="media-body">
+
+  <div class="row">
+    <div class="item-text-part col-12 {{if .images}} col-md-9 {{end}} ">
 
       <div class="section-subheading article-title mb-0 mt-0">
         {{ .title }}
       </div>
       <div class=" article-authors">
-          {{ .authors | markdownify}}.
+        {{ .authors | markdownify}}.
         {{with .journal}}<span class="journal"  >{{ . | markdownify}}</span>{{end}}
         {{with .journal_desc}}{{ . | markdownify}}{{end}}
 
       </div>
       <div class="article-desc">
-          {{ .desc | markdownify}}
+        {{ .desc | markdownify}}
       </div>
 
 
@@ -37,16 +39,17 @@
       {{end}}
 
     </div>
-    <div class="ml-3 home-prj-img-icon-wrap">
-        {{/*{{ with .image }} <img src="{{ . }}" height="84" width="150" loading="lazy" /> {{ end }}*/}}
-        {{ with .images }}
-          {{ range $idx, $item := . }}
-            <div><img src="{{ $item.url | relURL }}" class="home-project-icon-image" loading="lazy" /></div>
-          {{end}}
+    <div class="item-img-part col-12 {{if .images}} col-md-3{{end}}">
+      {{ with .images }}
+        {{ range $idx, $item := . }}
+        <div><img src="{{ $item.url | relURL }}" class="home-project-icon-image" loading="lazy" /></div>
+        {{end}}
 
       {{ end }}
     </div>
   </div>
+
+
   {{ end }}
 
 
